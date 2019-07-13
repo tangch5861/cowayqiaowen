@@ -81,7 +81,7 @@
 
     function initSendEmail() {  
         $('#submit').bind('click', function(event) {
-            Email.send({
+            /* Email.send({
                 SecureToken : "98a423f-f7d0-44b0-a6a3-6e573b9805f4",
                 To : 'qiaowen0318@outlook.com',
                 From : "cowayqiaowen@gmail.com",
@@ -100,7 +100,7 @@
                 Body : "And this is the body"
             }).then(
               message => alert(message)
-            );
+            ); */
         });
     }
 
